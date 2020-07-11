@@ -1,6 +1,8 @@
 
 #r "System.Data.Common"
-#load ".paket/load/netcoreapp3.1/main.group.fsx"
+#r "netstandard"
+// have to use the net version
+#load ".paket/load/net472/Microsoft.Data.SQLClient.fsx"
 
 #load "src/DustyTables/RowReader.fs"
 #load "src/DustyTables/Sql.fs"
